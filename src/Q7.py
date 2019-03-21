@@ -11,7 +11,7 @@ elif not re.search("[A-Z]", passwd):
     isValidate = False
 elif not re.search("[0-9]", passwd):
     isValidate = False
-elif not re.search("[~!@#$%^&*()_+/+]", passwd):
+elif not re.search("[~!@#$%^&*()_/+\:,./?<>]", passwd):
     isValidate = False
     
 if isValidate:
