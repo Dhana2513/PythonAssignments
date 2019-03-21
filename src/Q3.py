@@ -1,3 +1,13 @@
+# Write a Python program to construct the following pattern, using a nested for loop.
+# *
+# * *
+# * * *
+# * * * *
+# * * * * *
+# * * * *
+# * * *
+# * *
+# *
 
 n = 10
 for i in range(n):
