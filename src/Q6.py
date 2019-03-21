@@ -4,11 +4,10 @@ letterCount = 0
 
 for ch in line:
     if ch.isdigit():
-        digitCount+=1
+        digitCount += 1
     elif ch.isalpha():
-        letterCount+=1
+        letterCount += 1
         
 print "Number of digits : ", digitCount
 print "Number of letters : ", letterCount
-        
         

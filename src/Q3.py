@@ -6,7 +6,7 @@ for i in range(n):
         for j in range(i):
             str += "*"
     else :
-        for j in range(n, i, - 1):
+        for j in range(n, i, -1):
             str += "*"
     print str
    
